@@ -40,4 +40,8 @@ byeongcheollim=# SELECT postgis_full_version()
 
 1. download 표준노드링크
 
-2. shp2pgsql
+2. shp2pgsql -s 4326 -W cp949 ./[2024-03-25]NODELINKDATA/MOCT_LINK.shp | psql -U byeongcheollim -d byeongcheollim -q
+
+3. shp2pgsql -s 4326 -W cp949 ./[2024-03-25]NODELINKDATA/MOCT_NODE.shp | psql -U byeongcheollim -d byeongcheollim -q
+
+4. you can find MOCT_LINK table
