@@ -10,6 +10,8 @@
 
 4. osmium extract -p yeoido.osm -o yeoido.osm.pbf south-korea-latest.osm.pbf
 
+4-1.  osmium fileinfo -e yeoido.osm.pbf
+
 5. make lua script, buildings.lua
 
 6. install osm2pgsql with homebrew
