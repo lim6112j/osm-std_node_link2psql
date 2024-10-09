@@ -34,5 +34,10 @@ byeongcheollim=# SELECT postgis_full_version()
 
 9. osm2pgsql -d byeongcheollim -O flex -S buildings.lua yeoido.osm.pbf
 
-10. open qgis connect postgresql , db = byeongcheollim, click public table, you can look the yeoido map
+10. open qgis connect postgresql , db = byeongcheollim, click public table, you can look the ye woido map
 
+# 표준노드링크 사용하기
+
+1. download 표준노드링크
+
+2. shp2pgsql
